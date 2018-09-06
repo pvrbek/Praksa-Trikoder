@@ -1,0 +1,15 @@
+{
+  "name": "praksa",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-include-replace": "^4.0.1",
+    "grunt-sass-import": "^0.2.0",
+    "grunt-webpack": "^1.0.11",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

@@ -1,0 +1,80 @@
+.loginWrap{
+    position: fixed;
+    padding: 0;
+    margin: 0;
+
+    top:0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 2060;
+        >.fullLogin{
+            position: relative;
+            margin: 15% auto;
+            width: 380px;
+            height: 380px;
+            >.closeLink{
+                cursor: pointer;
+            >.closeButton{
+                position: absolute;
+                right: 0;
+                }}
+            >.closeLink:hover{
+                >.closeButton{
+                    color: $navGray;
+                }
+            }
+            >.formContainer{
+                position: absolute;
+                top: 25px;
+                padding:25px 20px;
+                background-color: white;
+                >.loginForm {
+                    width: 100%;
+                    >.listTitle{
+                        padding:0 0 20px 0;
+                    }
+                    >.horizontalLine5{
+                        margin-bottom: 20px;
+                    }
+                    >input{
+                        font-family: $fontLato;
+                        font-size: 16px;
+                        padding: 10px 9px;
+                        box-sizing: border-box;
+                        width: 100%;
+                        border-radius: 0;
+                        border: 1px solid $shadowGray;
+                        background-color: transparent;
+                        margin-bottom: 20px;
+                    }
+                    >button{
+                        cursor: pointer;
+                        font-family: $fontLato;
+                        color: $navWhite;
+                        width: 100%;
+                        height: 42px;
+                        font-weight: $titleFontWeight;
+                        font-style: normal;
+                        font-size: 14px;
+                        padding: auto;
+                        border: none;
+                        border-radius: 0;
+                        background-color: $primaryColor;
+                        text-transform: uppercase;
+                    }
+                }
+        }
+    }
+}
+.-loginHide{
+    display: none;
+}
+.-loginShow{
+    display: block;
+}
+
+

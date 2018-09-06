@@ -1,0 +1,76 @@
+.navigation-top {
+    width: 100%;
+    float: left;
+    background-color: $navWhite;
+    border-bottom: 1px solid $shadowGray;
+    position: relative;
+    >.menuLink{
+        >.menuIcon{
+            display: none;
+        }}
+    >.fitWrap{
+    > ul{
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        background-color: $navWhite;
+        height:66px;
+        > li{
+        float: left;
+        display: inline;
+            > a{
+                display: inline-block;
+                color: $navGray;
+                text-align: left;
+                text-decoration: none;
+                padding: 18px 0px;
+                margin-right: 70px;
+                font-family: $fontLato;
+                font-size: $navFontSize;
+                font-weight: $navFontWeight;
+                line-height: $navLineHeight;
+            }
+            > a:hover{
+                color: $primaryColor;
+            }
+    }
+        >li:first-child{
+            margin-left: $articleMargin;
+            > a{
+                margin-left: 0px;
+            }
+        }
+        >li:last-child{
+            float: right;
+            margin-right: $articleMargin;
+            >span{
+                float: left;
+                padding-top: 18px;
+                padding-right: 10px;
+                font-size: $navFontSize+8px;
+            }
+            > a{
+                cursor: pointer;
+                margin-right: 0px;
+            }
+        }
+        }}
+    .-active{
+        color: $primaryColor;
+        border-bottom: 2px solid $primaryColor;
+    }
+    .-menuClose{
+        >.menuLink{
+            >.menuIcon{
+                color: $navWhite;
+            }}
+        >.fitWrap{display: none;}
+    }
+    .-menuOpen{
+        >.menuLink{
+            >.menuIcon{
+                color: $navGray;
+            }}
+        >.fitWrap{display: inline;}
+    }
+}

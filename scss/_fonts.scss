@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?a8cp0r');
+    src:    url('../fonts/icomoon.eot?a8cp0r#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?a8cp0r') format('truetype'),
+        url('../fonts/icomoon.woff?a8cp0r') format('woff'),
+        url('../fonts/icomoon.svg?a8cp0r#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-iconWatch:before {
+    content: "\e600";
+}
+.icon-iconHeart:before {
+    content: "\e601";
+}
+.icon-iconComment:before {
+    content: "\e602";
+}
+.icon-iconMenu:before {
+    content: "\e603";
+}
+.icon-iconSearch:before {
+    content: "\e604";
+}
+.icon-iconOctopus:before {
+    content: "\e605";
+}
+.icon-iconSignIn:before {
+    content: "\e606";
+}
+.icon-iconClose:before {
+    content: "\ea0f";
+}

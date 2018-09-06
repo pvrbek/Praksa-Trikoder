@@ -1,0 +1,8 @@
+$primaryColor:#e74c3c;
+.footer-bottom{
+    height: 124px;
+    background: $primaryColor;
+}
+.-wide{
+    width: 100%;
+}
